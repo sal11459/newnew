@@ -27,7 +27,7 @@ const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
   width: drawerWidth,
-  backgroundColor: '#2795df', // Specify your desired background color here
+  backgroundColor: '#2295df', // Specify your desired background color here
   transition: theme.transitions.create('width', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.enteringScreen,
