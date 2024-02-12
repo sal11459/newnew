@@ -9,19 +9,16 @@ body {
   /* background-color: linear-gradient(#8572df40, rgba(0, 0, 0, 0)) ; */
 
   /* background: rgb(38, 179, 207) !important;  */
-  background: linear-gradient(to bottom, #fefdffe1, #023252) !important;
+  background: #ffffffae !important;
   background-size: 100%;
 
   /* background-repeat: no-repeat; */
-  
 }
-#root{
+#root {
   height: 100vh;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-
-
+  margin: 0;
+  padding: 0;
+}

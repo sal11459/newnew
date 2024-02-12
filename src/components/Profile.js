@@ -199,7 +199,7 @@ const Profile = () => {
                   </label>
                 </div>
               </div> */}
-               <Layout>
+               {/* <Layout> */}
         <div className="container shadow rounded mt-5 mb-5 profile-container">
           <div className="row">
             <div className="col-md-12">
@@ -307,7 +307,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };

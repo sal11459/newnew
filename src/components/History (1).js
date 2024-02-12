@@ -113,7 +113,7 @@ const History = ({ userId, setUserId ,open}) => {
 
   return (
     <>
-        <Layout open={open}>
+        {/* <Layout open={open}> */}
       {questionHistory.length == 0 ? (
         <div className="contained" style={styles.contained}>
           <div className="text" style={styles.text}>
@@ -173,7 +173,7 @@ const History = ({ userId, setUserId ,open}) => {
           </div>
         </div>
       )}
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };

@@ -136,7 +136,7 @@ function Dashboard({ open }) {
 
   return (
     <>
-     <Layout open={open}>
+     {/* <Layout open={open}> */}
         <div className='bo'>
           <Box sx={{ display: 'flex', flexDirection: 'column', maxHeight: '100%' }}>
             <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
@@ -200,7 +200,7 @@ function Dashboard({ open }) {
             </Box>
           </Box>
         </div>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 }

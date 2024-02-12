@@ -400,7 +400,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
         page={"Home"}
       /> */}
       
-      <Layout>
+      {/* <Layout> */}
         
 <div className="background">
       <div className="container" style={{ overflowX: 'auto' }}> 
@@ -566,7 +566,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
       />
       
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };
